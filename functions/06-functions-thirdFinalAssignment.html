@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<script>
+
+function add7(num) {
+    result = num + 7
+    console.log(result)
+}
+
+function multiply(a,b) {
+    result = a * b
+    console.log(result)
+}
+
+function capitalize(string) {
+    let firstLetter = string.substr(0,1)
+    let otherLetters = string.substr(1)
+    firstLetter = firstLetter.toUpperCase()
+    otherLetters = otherLetters.toLowerCase()
+    result = firstLetter + otherLetters
+    console.log(result)
+}
+
+function lastLetter(string) {
+    let result = string.substr(-1,1)
+    console.log(result)
+}
+
+</script>
+
+</body>
+</html>
